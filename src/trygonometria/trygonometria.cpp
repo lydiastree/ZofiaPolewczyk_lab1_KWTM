@@ -1,6 +1,7 @@
 #include "trygonometria.h"
 #include <cmath>
 
+
 double degreemath::sin(double degree) {
          double rad = degree*(M_PI/180); 
          return std::sin(rad);
@@ -18,5 +19,5 @@ double degreemath::tan(double degree) {
 
 double degreemath::ctan(double degree) {
          double rad = degree*(M_PI/180); 
-         return 1/std::tan(rad);
+         return 1/std::tan(rad); 
 }

@@ -1,4 +1,4 @@
-namespace degreemath{ 
+namescape degreemath { 
     double sin(double degree);
     double cos(double degree);
     double tan(double degree);
